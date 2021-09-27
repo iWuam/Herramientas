@@ -1,0 +1,17 @@
+nav {
+    background: #FDF6F0;
+    padding: 20px;
+}
+
+button {
+    background: #2C2E43;
+    color: #96BAFF;
+}
+
+button:hover {
+    background: #F08FC0;
+}
+
+button:active{
+    background: #D62AD0;
+}

@@ -1,0 +1,16 @@
+nav {
+    background: #F3F1F5;
+    padding: 20px;
+}
+
+.columna {
+    background: #444941;
+    color: #787A91;
+    padding: 30px;
+    width: 20%;
+    margin: 20px;
+}
+
+.padre {
+    display: flex;
+}

@@ -1,0 +1,51 @@
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: ghostwhite; 
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+/* H O V E R */
+
+.nav-enlace:hover{
+    background: sandybrown;
+}
+
+/* N A V - P A D R E */
+
+nav{
+    background: slateblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* B O  T O N - T E L E F O N O */
+
+.nav-button{
+    background: salmon;
+    color: white;
+    padding: 10px 0;
+    border: 2px solid white;
+    display: none;
+}
+
+/* N A V - T E L E F O N O */
+
+
+@media (max-width: 600px) {
+    nav{
+        background: black;
+        flex-direction: column;
+    } 
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-button{
+        display: inline-block;
+    }
+    .cva{
+        display: none;
+    }
+}

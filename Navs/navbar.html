@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+
+    <nav>
+        <button class="nav-button" onclick="accion()">Menú</button>
+        <a href="#" class="nav-enlace cva">Inicio</a>
+        <a href="#" class="nav-enlace cva">Contacto</a>
+        <a href="#" class="nav-enlace cva">Servicios</a>
+        <a href="#" class="nav-enlace cva">Nosotros</a>
+    </nav>
+
+    <script>
+        function accion() {
+            console.log('ejecutando');
+
+            var ancla = document.getElementsByClassName('nav-enlace');
+
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle('cva');
+            }
+        }
+    </script>
+</body>
+
+</html>
